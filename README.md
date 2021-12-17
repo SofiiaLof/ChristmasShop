@@ -2,7 +2,7 @@ Vi sitter aktivt/har daily-call mellan ca 09-17ish varje dag när det inte är f
 i chatten mellandagarna. Vi kör igång med dailycalls och aktivt grupparbete 4jan, och fortsätter efter det med att jobba så varje föreläsnings-fria dag!
 <hr>
 <article>
-  <h3>planering för <strong>Fredag 17</strong></h3> 
+  <h3>planering för <strong>Fredag 17/12</strong></h3> 
   <br>
   <ulPå agendan>
     <li> skapa mappar och filer för:
