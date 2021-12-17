@@ -15,4 +15,19 @@ i chatten mellandagarna. Vi kör igång med dailycalls och aktivt grupparbete 4j
       <li>fixa Wireframe för startsidan som bestämmer generell navigering och design.</li>
     <li>Bestämma vad det är för typ av hemsida. (spelbutik/hundkennel/ etc.</li>
   </ul>
+  <br><br>
+  <h3>Tema</h3>
+  <p>Vi har bestämt att vi ska göra "TomtensWebshop" som hemsida. </p>
+  <p> i products sidan kan man hitta dels tjänster som "åk genom stan på tomtens renar", eller 
+    köp tomte-mors pepparkakor, samt alla typer av certifierade tomte dekorationer<sup>TM</sup>
+    <br>
+    På about-us.html hittar man hela tomtens historia och bakgrund, samt info om hans nissar och 
+    hangarounds. <br>
+    På blog-posts.html kan man se vad tomten har haft för sig, så här i jultider. 
+    <br>
+    På contact-us.html kan man skriva brev/önskelistor till tomten, samt ställa frågor om fakturor etc.
+  
+  
+  
 </article>
+
