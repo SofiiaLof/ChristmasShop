@@ -13,9 +13,9 @@
   <li> Santa's Workshop</li>
   <li> Reindeer</li>
   <li>Sled</li>
-  <li> </li>
-  <li> </li>
-  <li> </li>
+  <li>decorations </li>
+  <li>Sweets </li>
+  <li>Candy </li>
   <li> </li>
   <li> </li>
   <li> </li>
