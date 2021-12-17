@@ -12,7 +12,7 @@ i chatten mellandagarna. Vi kör igång med dailycalls och aktivt grupparbete 4j
           <li>about-us.html</li>
           <li>blog-posts.html</li>       
       </ol><li>Dela upp vem som ansvarar för vilken del av hemsidan. <br> 
-      <li>fixa Wireframe för hemsidan som bestämmer generell navigering och design.</li>
+      <li>fixa Wireframe för startsidan som bestämmer generell navigering och design.</li>
     <li>Bestämma vad det är för typ av hemsida. (spelbutik/hundkennel/ etc.</li>
   </ul>
 </article>
