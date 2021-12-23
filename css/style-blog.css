@@ -90,7 +90,6 @@ h3 {
 .bg-primary {
   top: 100px;
   position: relative;
-  border: 1px solid #810000;
 }
 .card {
   margin: 200px;
@@ -98,7 +97,7 @@ h3 {
   position: relative;
   left: 40px;
   background: #2879a8;
-  width: 350px;
+  width: 300px;
   height: 500px;
   border-bottom: #64060e transparent 45px;
   padding: 3rem;
@@ -111,9 +110,10 @@ h3 {
   float: center;
   background: #cdd6db;
   width: 500px;
+  top: -200px;
   height: 400px;
-  border-bottom: #64060e solid 45px;
-  border-left: #64060e solid 45px;
+  border-bottom: #084631 solid 45px;
+  border-left: #084631 solid 45px;
   padding: 5rem;
 }
 .card__image {
@@ -123,6 +123,15 @@ h3 {
   height: 400px;
   float: left;
   object-fit: cover;
+}
+.card__image1 {
+  left: -24px;
+  position: relative;
+  width: 200%;
+  height: 600px;
+  float: left;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .blog_text {
   position: relative;
