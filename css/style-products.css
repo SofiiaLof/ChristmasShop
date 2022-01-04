@@ -44,7 +44,8 @@
     color: #EEEBDD;
     font-weight: bold;
     background-color: #810000;
-    box-shadow: 0px 2px 5px #1b1717;;
+    box-shadow: 0px 2px 5px #1b1717;
+    max-width: 200px;
 }
 
 .products-title{
@@ -58,3 +59,14 @@
 .card-title{
     font-weight: bold;
 }
+
+.card {
+    height: 100%;
+}
+
+.card-body.card-body-custom {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
