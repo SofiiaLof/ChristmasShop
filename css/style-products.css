@@ -39,3 +39,22 @@
     background-color: #810000;
     box-shadow: 0px 8px 15px #1B1717;
 }
+
+.card-button.btn{
+    color: #EEEBDD;
+    font-weight: bold;
+    background-color: #810000;
+    box-shadow: 0px 2px 5px #1b1717;;
+}
+
+.products-title{
+    background-color: #810000;
+    padding: 1.5rem 0;
+    font-weight: bolder;
+    color:  #EEEBDD;
+   
+}
+
+.card-title{
+    font-weight: bold;
+}
