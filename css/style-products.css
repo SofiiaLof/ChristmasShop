@@ -1,0 +1,88 @@
+.body-product {
+    background-color: #EEEBDD;
+    font-family: "Montserrat";
+}
+
+.header-product-page{
+    background-color: #630000;
+}
+
+.navigation-product .nav-link, 
+.navigation-product a.brand-name, 
+.navigation-product.navbar-light 
+.navbar-nav .nav-link {
+    color: #EEEBDD;
+}
+
+.tree-icon{
+    position: absolute;
+    top: 7px;
+    font-size: 2rem;
+}
+
+.snowflake-icon{
+    position: relative;
+    top: -14px;
+    left: 8px;
+}
+
+.logo-wrap{
+   
+    color:#EEEBDD;
+}
+.brand-name{
+    font-family: "Mountains of Christmas";
+}
+.main-background{
+    height: calc(100vh  - 56px);
+    background-image: url("../Assets/andrew-neel-xjB7du_4kQQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.main-heading{
+    font-weight: bolder;
+    color: #EEEBDD;
+    text-shadow: -7px 1px 9px #1B1717;
+
+}
+
+.button-products.btn {
+    color: #EEEBDD;
+    font-weight: bold;
+    background-color: #810000;
+    box-shadow: 0px 8px 15px #1B1717;
+}
+
+.card-button.btn{
+    color: #EEEBDD;
+    font-weight: bold;
+    background-color: #810000;
+    box-shadow: 0px 2px 5px #1b1717;
+    max-width: 200px;
+}
+
+.products-title{
+    background-color: #810000;
+    padding: 1.5rem 0;
+    font-weight: bolder;
+    color:  #EEEBDD;
+   
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-body.card-body-custom {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
