@@ -14,6 +14,22 @@
     color: #EEEBDD;
 }
 
+.tree-icon{
+    position: absolute;
+    top: 7px;
+    font-size: 2rem;
+}
+
+.snowflake-icon{
+    position: relative;
+    top: -14px;
+    left: 8px;
+}
+
+.logo-wrap{
+   
+    color:#EEEBDD;
+}
 .brand-name{
     font-family: "Mountains of Christmas";
 }
