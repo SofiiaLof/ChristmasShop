@@ -86,3 +86,13 @@
     flex-direction: column;
     justify-content: space-between;
 } 
+
+/*PRODUCT#1 style (Ride with Santa)*/
+.main-title{
+    font-weight: bolder;
+    color:  #1B1717;
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
