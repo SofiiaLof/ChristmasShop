@@ -1,141 +1,168 @@
-:root {
-  --clr-primary-200: #eeebdd;
-  --clr-primary-400: #630000;
-  --clr-neutral-900: #222c2a;
-  --clr-neutral-100: #fff;
-
-  --ff-primary: "Roboto", sans-serif;
-  --ff-accent: "Mountains of Christmas";
-}
-
 body {
-  /* background-image: url("/Assets/moon-31665.png"); */
-  /* background-repeat: repeat-y; */
-  /* background-position: 60%, 80%; */
   background-color: #eeebdd;
-  font-family: var(--ff-primary);
-  font-size: 1.3125rem;
-  line-height: 1, 6;
+  /* background-image: url("/Assets/blog/snowheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
-* {
-  box-sizing: border-box;
+.padding {
+  padding: 1rem;
 }
-ul {
-  list-style-type: none;
-  align-items: center;
-  display: flex;
-
-  background-color: #630000;
-}
-.top {
-  background: #630000;
-
-  margin-top: -25px;
-}
-.brandname {
-  justify-content: center;
-
-  align-items: center;
-  text-align: center;
+.brand-name {
   font-family: "Mountains of Christmas";
-  color: #eeebdd;
-  font-size: 3rem;
 }
-
-li * {
-  display: flex;
-
-  padding: 0px 100px 0px 200px;
-  /* border-right: 1px 0px 4px 0px ridge wheat;
-  border-left: 1px ridge wheat; */
-  /* < */
+header {
+  width: 100%;
 }
-.navbar {
-  position: sticky;
-  display: flex;
-}
-.nav {
-  display: flex;
-}
-li a {
-  color: white;
+.container_diy {
+  /* width: min(97%, 1000px); */
+  width: 100%;
   margin-inline: auto;
+  justify-content: center;
+}
+.container_diy p {
+  font-family: "montserrat";
+}
+.red_bg {
+  background-color: #173611;
+  color: #eeebdd;
+}
+h1 {
+  font-family: "Mountains of Christmas";
+}
+
+.card-img-top {
+  border: 5px solid black;
+  height: 360px;
+}
+
+.container-fluid {
+  display: flex;
+}
+.carousel-style {
+  display: flex;
+}
+
+/* #carouselExampleDark {
+  height: auto;
+} */
+.h-carousel {
+  font-family: "Mountains of Christmas";
+  font-weight: normal;
+  font-size: 50px;
+  border-bottom: 2px solid #630000;
+}
+.carousel-style a:hover {
+  color: #630000;
+}
+.carousel-style a:link,
+a:visited {
+  color: #eeebdd;
   text-decoration: none;
-  font-size: 25px;
-  font-weight: lighter;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+}
+.carousel-style p {
+  font-family: "montserrat";
+  font-weight: normal;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  box-shadow: 0 0 25px 1px red;
-  border-radius: 22% 22% 22px 22px;
-  background-color: #810000;
+.carousel-caption {
+  align-items: center;
+}
+.carousel-inner > .item > img {
+  width: 640px;
+  height: 360px;
+}
+.accordion {
+  width: 50%;
+}
+.accordion-item {
+  background-color: #eeebdd;
+}
+.accordion-button {
+  color: #eeebdd;
+  background: #630000;
+}
+.list-group-item a {
+  color: black;
+}
+.list-group-item {
+  background-image: url("/Assets/blog/winter-g276990c28_1920.jpg");
+}
+.list-group-item {
+  font-family: "montserrat";
 }
 
-.active {
-  background-color: #64060e;
+/* Taget från en utmaning jag gjorde på css-battle */
+div.body {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
   border-radius: 50%;
-  box-shadow: 0px 2px 250px 1px rgb(68, 2, 2);
+  border: 3px solid black;
 }
-
-h1,
-h2,
-h3 {
-  line-height: 1;
-  font-family: var(--ff-accent);
-  font-weight: 900;
-}
-.bg-primary {
-  top: 100px;
-  position: relative;
-}
-.card {
-  margin: 200px;
+div.head {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+  margin: -150px 0px 0px 20px;
   display: flex;
-  position: relative;
-  left: 40px;
-  background: #2879a8;
-  width: 300px;
-  height: 500px;
-  border-bottom: #64060e transparent 45px;
-  padding: 3rem;
+  border: 3px solid black;
 }
-.card2 {
-  display: flex;
-  left: 1000px;
-  position: relative;
-  justify-content: space-between;
-  float: center;
-  background: #cdd6db;
-  width: 500px;
-  top: -200px;
-  height: 400px;
-  border-bottom: #084631 solid 45px;
-  border-left: #084631 solid 45px;
-  padding: 5rem;
+.scarf {
+  background: #173611;
+  width: 80px;
+  height: 18px;
+  margin: -16px 0px 0px 15px;
 }
-.card__image {
-  left: 70px;
-  position: relative;
-  width: 200%;
-  height: 400px;
-  float: left;
-  object-fit: cover;
+#scarf.scarf {
+  background: #ffa63f;
+  width: 60px;
+  height: 10px;
+  margin: -14px 0px 0px 20px;
+  border-radius: 10px;
 }
-.card__image1 {
-  left: -24px;
+.nose {
+  background: #ffffff;
+  width: 9px;
+  height: 10px;
+  margin: 1px -11px px 5px;
+}
+.eyes {
+  width: 10px;
+  border-right: 1px solid white;
   position: relative;
-  width: 200%;
-  height: 600px;
-  float: left;
-  object-fit: cover;
+  top: 15px;
+  height: 10px;
+  background: black;
+  left: 14px;
   border-radius: 50%;
 }
-.blog_text {
+.hat {
   position: relative;
-  top: 25px;
+  background: #0e1f2b;
+  height: 45px;
+  width: 40px;
+  top: -92px;
+  left: 30px;
 }
-.decorations {
+.rim {
+  background: #0e1f2b;
+  position: relative;
+  top: 40px;
+  right: 10px;
+  height: 5px;
+  width: 60px;
+}
+.white {
+  background: #ffffff;
+  width: 40px;
+  position: absolute;
+  display: block;
+  top: 15px;
+  height: 10px;
+}
+.snowman {
+  position: absolute;
+  top: 190px;
+  left: 80px;
 }
