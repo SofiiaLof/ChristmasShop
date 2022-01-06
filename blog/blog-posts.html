@@ -12,304 +12,341 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/style-blog.css" />
-    <link rel="stylesheet" href="/css/style-products.css">
-     <!-- Bootstrap Font Icon CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style-products.css" />
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
   </head>
   <body>
- <div class="container-fluid flex-wrap">
+    <div class="container-fluid flex-wrap">
+      <header class="header-product-page sticky-top">
+        <nav class="navigation-product navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="logo-wrap pe-3">
+              <i class="tree-icon bi bi-tree-fill"></i>
+              <i class="snowflake-icon bi bi-snow2"></i>
+            </div>
 
-  <header class="header-product-page sticky-top">
-      <nav class="navigation-product navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <div class="logo-wrap pe-3">
-            <i class="tree-icon bi bi-tree-fill"></i>
-            <i class="snowflake-icon bi bi-snow2"></i>
+            <a class="brand-name navbar-brand" href="#">Santa's Workshop</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../products/products.html"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> About us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact us</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          
-          <a class="brand-name navbar-brand" href="#">Santa's Workshop</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../products/products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"> About us </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
 
-    
-      <div class ="container_diy text-sm-center">
-
-        <h2> blog post</h2>
+      <div class="container_diy text-sm-center">
+        <h2>blog post</h2>
         <p>Lorem ipsum dolor sit amet consectetur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        
+
         <div class="red_bg">
-            <h2> Christmas</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquam?</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, harum.</p>
-        <!-- Imported from css:battle.dev-->
-        <div class="snowman">
-        <div class="body"></div><div class="head"><div class="eyes"></div><p class="nose"></p><div class="eyes"></div></div><div class="scarf"></div><div Id="scarf"class="scarf"></div><div class="hat"><div class="white"></div><div class="rim"></div></div>
-
-        </div>
-        </div>
-       </div>
-     
-       
-                  
-      
-       <section class="carousel-style">
-        <!-- Bootstrap carousel dark variant-->
-
-        <div
-          id="carouselExampleDark"
-          class="carousel carousel-dark slide container-fluid"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+          <h2>Christmas</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+            aliquam?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia,
+            harum.
+          </p>
+          <!-- Christmas-present css:battle.dev-->
+          <div class="logo-container">
+            <div class="square"></div>
+            <div id="square-right" class="square"></div>
+            <div class="circle"></div>
+            <div id="circle-right" class="circle"></div>
+            <div id="connector"></div>
+            <div id="left-inner" class="inner-circle"></div>
+            <div id="right-inner" class="inner-circle"></div>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="/Assets/blog/snowflake-1918794_1920.jpg"
-                class="d-block w-100"
-                alt="snow"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h2 class="h-carousel">Winters coming!></h2>
-                <p>
-                  <a href="#">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Magni sunt facilis illo ab, nobis dolorum dolor voluptates
-                    voluptatibus corrupti molestias deserunt saepe blanditiis,
-                    explicabo recusandae id enim odit eius sapiente?
-                  </a>
-                </p>
+          <!--Snögubbe CSS:battle.dev-->
+          <div class="snowman">
+            <div class="body"></div>
+            <div class="head">
+              <div class="eyes"></div>
+              <p class="nose"></p>
+              <div class="eyes"></div>
+            </div>
+            <div class="scarf"></div>
+            <div id="scarf" class="scarf"></div>
+            <div class="hat">
+              <div class="white"></div>
+              <div class="rim"></div>
+            </div>
+          </div>
+        </div>
+
+        <section class="carousel-style">
+          <!-- Bootstrap carousel dark variant-->
+
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide container-fluid"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="/Assets/blog/snowflake-1918794_1920.jpg"
+                  class="d-block w-100"
+                  alt="snow"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="h-carousel">Winters coming!></h2>
+                  <p>
+                    <a href="#">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Magni sunt facilis illo ab, nobis dolorum dolor voluptates
+                      voluptatibus corrupti molestias deserunt saepe blanditiis,
+                      explicabo recusandae id enim odit eius sapiente?
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="/Assets/blog/christmas-6875109_1920.jpg"
+                  class="d-block w-100"
+                  alt="decorations"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="h-carousel">Our favorite decorations</h3>
+                  <p>
+                    <a href="#">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates, nihil maiores voluptate alias praesentium
+                      commodi consectetur neque suscipit excepturi consequuntur
+                      sunt cumque amet modi eius reprehenderit nisi qui nulla
+                      reiciendis.</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/Assets/blog/dog-5793625_1920.jpg"
+                  class="d-block w-100"
+                  alt="santa-dog"
+                />
+                <div class="carousel-caption d-none d-md-block text-white">
+                  <h3 class="h-carousel">Helping santa's little helper</h3>
+                  <p>
+                    <a href="#">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Neque, nihil. Harum itaque eveniet corrupti voluptatem sit
+                      neque impedit voluptates eos ad quia dolor libero,
+                      perferendis ducimus molestiae placeat voluptatum dicta?</a
+                    >
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="/Assets/blog/christmas-6875109_1920.jpg"
-                class="d-block w-100"
-                alt="decorations"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h3 class="h-carousel">Our favorite decorations</h3>
-                <p>
-                  <a href="#">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, nihil maiores voluptate alias praesentium
-                    commodi consectetur neque suscipit excepturi consequuntur
-                    sunt cumque amet modi eius reprehenderit nisi qui nulla
-                    reiciendis.</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="/Assets/blog/dog-5793625_1920.jpg"
-                class="d-block w-100"
-                alt="santa-dog"
-              />
-              <div class="carousel-caption d-none d-md-block text-white">
-                <h3 class="h-carousel">Helping santa's little helper</h3>
-                <p>
-                  <a href="#">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque, nihil. Harum itaque eveniet corrupti voluptatem sit
-                    neque impedit voluptates eos ad quia dolor libero,
-                    perferendis ducimus molestiae placeat voluptatum dicta?</a
-                  >
-                </p>
-              </div>
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
+        </section>
 
-      <br /><br />
-      <div class="accordion accordion-flush" id="accordionFlushExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
+        <div class="container_diy text-sm-center">
+          <h3>Christmas bla bla...</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            amet? Aspernatur voluptates sapiente mollitia beatae!
+          </p>
+          <h3 class="bg-black text-white"></h3>
+          <div class="red-bgs">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Distinctio veniam eos maxime vero vitae. Molestias incidunt
+              dolorem deleniti sunt culpa?
+            </p>
+          </div>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                December 2021
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
             >
-              December 2021
-            </button>
-          </h2>
-          <div
-            id="flush-collapseOne"
-            class="accordion-collapse collapse"
-            aria-labelledby="flush-headingOne"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body">
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <a href="#">Countdown to christmas</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Eco-friendly christmas gifts</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Santa's got a new look!</a>
-                </li>
-              </ul>
+              <div class="accordion-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="#">Countdown to christmas</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Eco-friendly christmas gifts</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Santa's got a new look!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                November 2021
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="#">shenanigans at the northpole</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Reindeers need your help!</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Santa's new factory</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                October 2021
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <a href="#">shenanigans at the northpole</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Reindeers need your help!</a>
+                  </li>
+                  <li class="list-group-item">
+                    <a href="#">Santa's new factory</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingTwo">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo"
-              aria-expanded="false"
-              aria-controls="flush-collapseTwo"
-            >
-              November 2021
-            </button>
-          </h2>
-          <div
-            id="flush-collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="flush-headingTwo"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body">
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <a href="#">shenanigans at the northpole</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Reindeers need your help!</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Santa's new factory</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingThree">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseThree"
-              aria-expanded="false"
-              aria-controls="flush-collapseThree"
-            >
-              October 2021
-            </button>
-          </h2>
-          <div
-            id="flush-collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="flush-headingThree"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="accordion-body">
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <a href="#">shenanigans at the northpole</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Reindeers need your help!</a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#">Santa's new factory</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+
+        <div class="footer">Footer</div>
       </div>
-
-      <div class="footer">Footer</div>
     </div>
-
-
-      
-
-     
-
-
-
- </div>
-     
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

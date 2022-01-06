@@ -91,7 +91,7 @@ a:visited {
   font-family: "montserrat";
 }
 
-/* Taget från en utmaning jag gjorde på css-battle */
+/* CSS:Battle snögubbe */
 div.body {
   width: 100px;
   height: 100px;
@@ -165,4 +165,66 @@ div.head {
   position: absolute;
   top: 190px;
   left: 80px;
+}
+/* CSS:Battle Julklapp */
+.logo-container {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: flex-end;
+
+  right: 10px;
+}
+.square {
+  background: #630000;
+  position: relative;
+  left: 122px;
+  top: 102px;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+
+  box-shadow: 80px 0px 0px 0px #630000;
+}
+#square-right {
+  top: 182px;
+  left: 62px;
+}
+.circle {
+  position: relative;
+  top: 41px;
+
+  flex-direction: column;
+  left: 35px;
+
+  background: #630000;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#circle-right {
+  left: 28px;
+}
+#connector {
+  height: 15px;
+  width: 30px;
+  background: #630000;
+  position: relative;
+  top: 66.3px;
+  right: 23px;
+}
+.inner-circle {
+  background: #eeebdd;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 53px;
+}
+#left-inner {
+  border-radius: 50% 50% 0% 50%;
+  right: 65px;
+}
+#right-inner {
+  border-radius: 50% 50% 50% 0%;
+  right: 55px;
 }
