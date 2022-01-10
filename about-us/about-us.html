@@ -4,54 +4,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mountains+of+Christmas:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style-about.css">
+    <link rel="stylesheet" href="../css/style-products.css">
+
     <title>About us</title>
 </head>
 <body>
-<header>
-    <h1>Header</h1>
-</header>
+    <header class="header-product-page sticky-top">
+        <nav class="navigation-product navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="logo-wrap pe-3">
+              <i class="tree-icon bi bi-tree-fill"></i>
+              <i class="snowflake-icon bi bi-snow2"></i>
+            </div>
 
-<main>
-    <h1>Staff</h1>
+            
+            <a class="brand-name navbar-brand" href="#">Santa's Workshop</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../products/products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> About us </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+
+
+
+    <h1><i class="bi bi-three-dots"></i></i>Staff<i class="bi bi-three-dots"></i></i></h1>
     <div class="card-group">
         <div class="card">
-          <img src="img/krakenimages-liT5AlTmC8I-unsplash.jpg" class="card-img-top" alt="...">
+          <img src="../Assets/Santa.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Santa Claus</h5>
             <p class="card-text">President & CEO</p>
-            <a href="#" class="btn btn-primary">Read more about Santa Claus<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <a href="#santa" class="btn btn-primary">Read more about Santa Claus<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
               </svg></a>
           </div>
         </div>
         <div class="card">
-          <img src="img/IMG_9900.jpg" class="card-img-top" alt="...">
+          <img src="../Assets/Elf.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Shinny Upatree</h5>
             <p class="card-text">COO & Project manager</p>
-            <a href="#" class="btn btn-primary">Read more about Shinny Upatree<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <a href="#shinny" class="btn btn-primary">Read more about Shinny Upatree<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
               </svg></a>
           </div>
         </div>
         <div class="card">
-          <img src="img/karsten-winegeart-n3c5pSoD2Fc-unsplash.jpg" class="card-img-top" alt="...">
+          <img src="../Assets/Rudolph.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Rudolph</h5>
             <p class="card-text">Reindeer manager & leading reindeer</p>
-            <a href="#" class="btn btn-primary">Read more about Rudolph <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <a href="#rudolph" class="btn btn-primary">Read more about Rudolph <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
               </svg></a>
           </div>
         </div>
       </div>
 
-      <section>
+      <section class="movie">
           <h2>Have a look inside Santas workshop...</h2>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Jm_HUhHKWC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
+
+      <article class="container">
+          <div id="santa"></div>
+      <section class="presentation-Santa">
+          <h1 class="presentation-h1" >Santa Claus</h1>
+          <img src="../Assets/Santa2.jpg" class="float-left" alt="...">
+          <p class="presentation-p">
+            Owner of Santas workshop and king of the North Pole. “Work” is a word that Santa Claus finds a little strange, and he often starts to smile when he hears that word. He is a busy man, especially around Christmas, but he doesn’t think he’s really working; so much he likes what he’s Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi amet culpa aliquid ipsa tenetur explicabo! </p>
+              <li class="presentation-li">Loves: Milk, Cookies, reading letters and of course mrs. Claus <br></li>
+              <li class="presentation-li">Favourite quote: "Treat everyday like christmas"</Li>
+
+      </section>
+
+    <hr>
+    <div id="shinny"></div>
+      <section class="presentation-Shinny">
+        <h1 class="presentation-h1">Shinny Upatree</h1>
+        <img src="../Assets/Elf2.jpg" class="float-right" alt="...">
+        <p class="presentation-p">
+            Shinny is a stickler for getting things done that are necessary. He makes the elves keep working by singing christmas carols. Being the head-elf, he has the responsibility of looking after the workshop and the other elves. 
+
+        </p>
+        <li class="presentation-li">Loves: Gifts, giftmaking, singing</li>
+        <li class="presentation-li">Favourite quote: "The best way to spread Christmas cheer is singing loud for all to hear."</li>
+      </section>
+
+      <hr>
+      
+      <div id="rudolph"></div>
+      <section class="presentation-Rudolph">
+        
+          <h1 class="presentation-h1">Rudolph</h1>
+          <img src="../Assets/Rudolph2.jpg" class="float-left" alt="...">
+          <p class="presentation-p"> Ever since Rudolph was a young calf, he has proven everyday that he is worthy being the leading reindeer. Even though he is the Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repellendus sit est aspernatur natus molestiae sunt ipsam excepturi! Modi quasi recusandae reiciendis odio tenetur accusamus minus nulla rerum, facere amet, similique aut nostrum cupiditate asperiores. Amet consequatur quia delectus enim quis. Neque minima minus maxime repellendus libero autem aliquam doloribus.</p>
+          <li class="presentation-li">Loves: Speed,</li>
+          <li class="presentation-li">Favourite quote: "There's always tomorrow for dreams to come true."</li>
+
+      </section>
+    </article>
+      
     </main>
     <footer>
         <h1>Footer</h1>
