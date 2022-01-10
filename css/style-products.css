@@ -95,6 +95,7 @@
     font-weight: bolder;
     color:  #EEEBDD;
     text-transform: uppercase;
+    font-family: "Mountains of Christmas";
    
 }
 
@@ -129,6 +130,7 @@
     font-weight: bolder;
     color:  #EEEBDD;
     text-transform: uppercase;
+    font-family: "Mountains of Christmas";
 }
 
 .description-button.btn{
@@ -152,4 +154,8 @@
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%), 
     0 0 15px 0 rgb(0 0 0 / 2%),
      0 0 20px 4px rgb(0 0 0 / 6%);
+}
+
+.pricing{
+    font-weight: bolder;
 }
