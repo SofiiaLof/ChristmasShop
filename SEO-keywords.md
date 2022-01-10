@@ -1,3 +1,11 @@
+<h2> Bestämda seo keywords</h2>
+<ol>
+  <li>Santa</li>
+  <li>christmas</li>
+  <li>gift</li>
+  </ol>
+
+<hr>
 <h2>Preliminära keywords</h2>
 <br>
 <ol>
