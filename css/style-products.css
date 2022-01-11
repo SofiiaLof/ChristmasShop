@@ -3,7 +3,7 @@
     font-family: "Montserrat";
 }
 
-.header-product-page{
+.header-product-page{ /**/
     background-color: #630000;
 }
 
@@ -12,7 +12,7 @@
 .navigation-product.navbar-light 
 .navbar-nav .nav-link {
     color: #EEEBDD;
-}
+}/**/
 
 .tree-icon{
     position: absolute;
@@ -54,7 +54,23 @@
     font-weight: bold;
     background-color: #810000;
     box-shadow: 0px 8px 15px #1B1717;
+    cursor: pointer;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 160px;
+    transition-property: transform;
+    transition-duration: 0.2s;
 }
+
+.button-products.btn:hover{
+    background-color: #630000;
+    color: #EEEBDD;
+    transform: scale(1.1);
+}
+
 
 .card-button.btn{
     color: #EEEBDD;
@@ -62,13 +78,24 @@
     background-color: #810000;
     box-shadow: 0px 2px 5px #1b1717;
     max-width: 200px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.2s;
 }
+
+.card-button.btn:hover{
+    background-color: #630000;
+    color: #EEEBDD;
+    transform: scale(1.1);
+ } 
 
 .products-title{
     background-color: #810000;
     padding: 1.5rem 0;
     font-weight: bolder;
     color:  #EEEBDD;
+    text-transform: uppercase;
+    font-family: "Mountains of Christmas";
    
 }
 
@@ -86,3 +113,53 @@
     flex-direction: column;
     justify-content: space-between;
 } 
+
+/*PRODUCT#1 style (Ride with Santa)*/
+.main-title{
+    font-weight: bolder;
+    color:  #1B1717;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.heading-includes{
+    background-color: #810000;
+    padding: 1.5rem 0;
+    font-weight: bolder;
+    color:  #EEEBDD;
+    text-transform: uppercase;
+    font-family: "Mountains of Christmas";
+}
+
+.description-button.btn{
+    color: #EEEBDD;
+    font-weight: bold;
+    background-color: #810000;
+    box-shadow: 0px 2px 5px #1b1717;
+    max-width: 200px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.description-button.btn:hover{
+   background-color: #630000;
+   color: #EEEBDD;
+   transform: scale(1.1);
+}
+
+.carousel{
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%), 
+    0 0 15px 0 rgb(0 0 0 / 2%),
+     0 0 20px 4px rgb(0 0 0 / 6%);
+}
+
+.pricing{
+    font-weight: bolder;
+}
+
+.heading-in-includes{
+ text-transform: uppercase;
+}
