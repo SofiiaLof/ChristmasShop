@@ -1,0 +1,100 @@
+body {
+  background-color: #0b0c0e;
+  background-image: url("/Assets/blog/dog-5793625_1920.jpg");
+  background-repeat: no-repeat;
+
+  background-position-x: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+}
+.opacity {
+  opacity: 50%;
+}
+
+.card {
+  width: 100%;
+}
+p {
+  font-family: "montserrat";
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Mountains of Christmas";
+}
+.font-color {
+  color: #eeebdd;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.blog-date {
+  justify-content: flex-end;
+}
+.blog-card {
+  border: 3px solid #eeebdd;
+  border-style: outset;
+  background-color: transparent;
+
+  max-width: 1250px;
+}
+.h-box {
+  background: #630000;
+}
+.blog-card img {
+  max-inline-size: 1250px;
+  width: 100%;
+}
+.blog-card p {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 5px 1px black;
+  line-height: 1.8;
+}
+.blog-card h2,
+h4 {
+  color: #eeebdd;
+  padding-bottom: 4px;
+  text-align: center;
+  font-size: 5rem;
+  text-shadow: 2px 2px rgba(231, 204, 50, 0.233);
+}
+.endblog p {
+  font-size: 1rem;
+  background: #630000;
+  color: #eeebdd;
+  text-shadow: none;
+}
+.accordion {
+  width: 50%;
+
+  max-width: 1000px;
+}
+.accordion-item {
+  background-color: #eeebdd;
+}
+.accordion-body {
+  font-size: 25px;
+}
+.accordion-button {
+  color: #eeebdd;
+  background: #630000;
+  font-size: 40px;
+}
+.list-group-item a {
+  color: black;
+}
+.list-group-item {
+  background-image: url("/Assets/blog/winter-g276990c28_1920.jpg");
+}
+.list-group-item {
+  font-family: "montserrat";
+}

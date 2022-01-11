@@ -4,15 +4,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover; */
 }
+.body-blog-post {
+  background-image: url("/Assets/blog/dog-5793625_1920.jpg");
+
+  width: 100%;
+  height: 100%;
+}
 .padding {
   padding: 1rem;
 }
 .brand-name {
   font-family: "Mountains of Christmas";
 }
-header {
-  width: 100%;
-}
+
 .container_diy {
   /* width: min(97%, 1000px); */
   width: 100%;
@@ -22,8 +26,12 @@ header {
 .container_diy p {
   font-family: "montserrat";
 }
-.red_bg {
+.green_bg {
   background-color: #173611;
+  color: #eeebdd;
+}
+.black_bg {
+  background-color: #1d0d0d;
   color: #eeebdd;
 }
 h1 {
@@ -165,14 +173,14 @@ div.head {
   position: absolute;
   top: 190px;
   left: 80px;
+  max-width: 25px;
+  max-height: 25px;
 }
 /* CSS:Battle Julklapp */
 .logo-container {
   position: absolute;
   top: 40px;
   display: flex;
-  justify-content: flex-end;
-
   right: 10px;
 }
 .square {
