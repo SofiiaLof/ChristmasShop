@@ -3,7 +3,7 @@
     font-family: "Montserrat";
 }
 
-.header-product-page{
+.header-product-page{ /**/
     background-color: #630000;
 }
 
@@ -12,7 +12,7 @@
 .navigation-product.navbar-light 
 .navbar-nav .nav-link {
     color: #EEEBDD;
-}
+}/**/
 
 .tree-icon{
     position: absolute;
