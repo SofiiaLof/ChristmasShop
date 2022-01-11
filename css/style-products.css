@@ -159,3 +159,7 @@
 .pricing{
     font-weight: bolder;
 }
+
+.heading-in-includes{
+ text-transform: uppercase;
+}
