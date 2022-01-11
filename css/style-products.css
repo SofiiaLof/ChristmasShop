@@ -1,38 +1,4 @@
-.body-product {
-    background-color: #EEEBDD;
-    font-family: "Montserrat";
-}
 
-.header-product-page{ /**/
-    background-color: #630000;
-}
-
-.navigation-product .nav-link, 
-.navigation-product a.brand-name, 
-.navigation-product.navbar-light 
-.navbar-nav .nav-link {
-    color: #EEEBDD;
-}/**/
-
-.tree-icon{
-    position: absolute;
-    top: 7px;
-    font-size: 2rem;
-}
-
-.snowflake-icon{
-    position: relative;
-    top: -14px;
-    left: 8px;
-}
-
-.logo-wrap{
-   
-    color:#EEEBDD;
-}
-.brand-name{
-    font-family: "Mountains of Christmas";
-}
 .main-background{
     height: calc(100vh  - 56px);
     background-image: url("../Assets/andrew-neel-xjB7du_4kQQ-unsplash.jpg");
