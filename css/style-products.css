@@ -12,6 +12,8 @@
     font-weight: bolder;
     color: #EEEBDD;
     text-shadow: -7px 1px 9px #1B1717;
+    font-family: 'Mountains of Christmas';
+    font-size: 3rem;
 
 }
 
@@ -88,6 +90,7 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
+    font-family: 'Mountains of Christmas';
 }
 
 .heading-includes{
@@ -128,4 +131,5 @@
 
 .heading-in-includes{
  text-transform: uppercase;
+ font-family: 'Mountains of Christmas';
 }
