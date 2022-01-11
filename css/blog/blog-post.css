@@ -1,17 +1,34 @@
 body {
   background-color: #0b0c0e;
+}
+.container-fluid-december {
   background-image: url("/Assets/blog/dog-5793625_1920.jpg");
   background-repeat: no-repeat;
-
   background-position-x: 700px;
-  background-size: cover;
+
+  background-size: contain;
   background-attachment: fixed;
 }
+.container-fluid-november {
+  background-image: url("/Assets/blog/christmas-6875109_1920.jpg");
+  background-repeat: no-repeat;
 
-.container-fluid {
+  background-size: cover;
 }
+.container-fluid-october {
+  background-image: url("/Assets/blog/snowflake-1918794_1920.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+/* .container-fluid {
+} */
 .opacity {
   opacity: 50%;
+}
+@media only screen and (max-width: 800px) {
+  body {
+  }
 }
 
 .card {
@@ -91,6 +108,7 @@ h4 {
 }
 .list-group-item a {
   color: black;
+  text-decoration: none;
 }
 .list-group-item {
   background-image: url("/Assets/blog/winter-g276990c28_1920.jpg");
