@@ -4,12 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover; */
 }
-.body-blog-post {
-  background-image: url("/Assets/blog/dog-5793625_1920.jpg");
 
-  width: 100%;
-  height: 100%;
-}
 .padding {
   padding: 1rem;
 }
@@ -26,6 +21,7 @@ body {
 .container_diy p {
   font-family: "montserrat";
 }
+
 .green_bg {
   background-color: #173611;
   color: #eeebdd;
@@ -33,21 +29,16 @@ body {
 .black_bg {
   background-color: #1d0d0d;
   color: #eeebdd;
-}
-h1 {
-  font-family: "Mountains of Christmas";
-}
-
-.card-img-top {
-  border: 5px solid black;
-  height: 360px;
+  width: max-content;
+  just
 }
 
-.container-fluid {
-  display: flex;
-}
+
+
+
+
 .carousel-style {
-  display: flex;
+  display:flex;
 }
 
 /* #carouselExampleDark {
@@ -79,8 +70,20 @@ a:visited {
   width: 640px;
   height: 360px;
 }
+.snow-icon-container {
+  background-image: url("/Assets/blog/snow2.svg");
+  height: 50px;
+  margin-top: 3rem;
+  width: 100%;
+}
+.accordion-flex {
+  display: flex;
+  justify-content: center;
+}
 .accordion {
+  margin-top: 3rem;
   width: 50%;
+  box-shadow: 0px 0px 5px 0px black;
 }
 .accordion-item {
   background-color: #eeebdd;
@@ -88,6 +91,8 @@ a:visited {
 .accordion-button {
   color: #eeebdd;
   background: #630000;
+  font-family: "Mountains of Christmas";
+  font-size: 1.5rem;
 }
 .list-group-item a {
   color: black;
@@ -105,19 +110,18 @@ div.body {
   height: 100px;
   background: #ffffff;
   border-radius: 50%;
-  border: 3px solid black;
 }
 div.head {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   background: #ffffff;
+
   margin: -150px 0px 0px 20px;
   display: flex;
-  border: 3px solid black;
 }
 .scarf {
-  background: #173611;
+  background: #eeebdd;
   width: 80px;
   height: 18px;
   margin: -16px 0px 0px 15px;
@@ -169,19 +173,21 @@ div.head {
   top: 15px;
   height: 10px;
 }
+.css-logo-container {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+}
 .snowman {
-  position: absolute;
-  top: 190px;
-  left: 80px;
-  max-width: 25px;
-  max-height: 25px;
+  justify-content: center;
+  align-items: center;
 }
 /* CSS:Battle Julklapp */
-.logo-container {
-  position: absolute;
-  top: 40px;
+.xmas-box {
   display: flex;
-  right: 10px;
+  justify-content: center;
 }
 .square {
   background: #630000;
