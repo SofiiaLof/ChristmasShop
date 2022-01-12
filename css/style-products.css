@@ -191,3 +191,9 @@
   .modal-dialog div.modal-header{
       font-family: 'Mountains of Christmas';
   }
+
+  @media screen and (min-width: 992px){
+    .carousel, .carousel-inner{
+        border-radius: 5%;
+    }
+  }
