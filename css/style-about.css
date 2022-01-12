@@ -31,8 +31,7 @@ footer {
     justify-content:space-between;
     width:100%;
     height: auto;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
+    padding: 2rem 3rem 4rem 3rem;
 }
 
 .card {
@@ -69,6 +68,7 @@ footer {
     transition: all .2s cubic-bezier(.22, .61, .36, 1);
     text-align: center;
     border-color: #810000;
+    margin-bottom: 2rem;
     
 }
 
@@ -86,32 +86,32 @@ footer {
 
   .movie{
     position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 50%;
-    padding-top: 56.25%;
-    text-align: center;
+    padding-bottom: 56.25%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+    
   }
 
   .iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-      
+    position: absolute;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    margin-top: 3rem;
+    display: block;
   }
 
 .container {
-    padding: 2rem;
+    padding: 0px 20px 20px 20px;
     display:flex;
     flex-direction: column;
     justify-content:space-evenly;    
 }
 .presentation-Santa, .presentation-Shinny, .presentation-Rudolph {
-    margin:4rem;
+    margin:2rem;
 }
 
 
@@ -122,6 +122,7 @@ h1, .card-title {
 .presentation-p{
     font-size: 2vw;
     white-space:normal;
+    font-weight: bold;
 }
 
 hr{
@@ -132,9 +133,10 @@ hr{
 }
 
 .presentation-li{
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: "Montserrat";
     white-space: normal;
+    font-weight: bold;
 
 }
 
@@ -164,6 +166,12 @@ hr{
     .card-container {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
+      padding-bottom:0;
+    
     }
+
+    .presentation-p, .presentation-li{
+        font-size: 3vw;
+    }
+
   }
