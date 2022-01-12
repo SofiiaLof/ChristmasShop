@@ -54,6 +54,10 @@ footer {
     object-fit: cover;
 }
 
+.card-title {
+    font-size: 30px;
+}
+
 .card-text {
     font-weight: bold;
 }
@@ -72,10 +76,6 @@ footer {
     
 }
 
-.card-title {
-    font-size: 30px;
-}
-
 
 
 .btn:hover {
@@ -84,15 +84,13 @@ footer {
     border-color: #810000;
   }
 
-  .movie{
+  .video{
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    
-    
   }
 
   .iframe {
@@ -100,7 +98,7 @@ footer {
     overflow: hidden;
     width: 70%;
     height: 70%;
-    margin-top: 3rem;
+    margin-top:3rem;
     display: block;
   }
 
