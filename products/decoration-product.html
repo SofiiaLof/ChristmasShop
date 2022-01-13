@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Style your own Christmas decoration</title>
+    <link rel="stylesheet" href="../css/global-styling.css" />
     <link rel="stylesheet" href="../css/style-products.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
   <link
@@ -15,9 +16,9 @@
 />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
-<body class="body-product">
-    <header class="header-product-page sticky-top">
-        <nav class="navigation-product navbar navbar-expand-lg navbar-light">
+<body class="body-global">
+    <header class="header-global-page sticky-top">
+        <nav class="navigation-global navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <div class="logo-wrap pe-3">
               <i class="tree-icon bi bi-tree-fill"></i>
@@ -39,7 +40,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../products/products.html">Products</a>
@@ -60,9 +61,14 @@
       </header>
       <main>
         <section class="carousel-main-section container-lg">
-          <div class="row justify-content-center align-items-center">
-            <div id="carouselExampleControls" class="carousel slide p-0 col-lg-6" data-bs-ride="carousel">
-                <div class="carousel-inner rounded-1">
+          <div class="row justify-content-center align-items-center py-xl-5">
+            <div id="carouselControls" class="carousel carousel-dark slide p-0 col-lg-6" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First image slide"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Second image slide"></button>
+                <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2" aria-label="Third image slide"></button>
+              </div>
+                <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="../Assets/ornament1.jpg" class="d-block w-100" alt="A Christmas ornaments with reindeer drawing and text">
                   </div>
@@ -73,11 +79,11 @@
                     <img src="../Assets/ornament2.jpg" class="d-block w-100" alt="A Christmas ornament with Sanat's sleigh and children">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -86,7 +92,8 @@
          <section class="description-section col-lg-6">
              <div class="m-md-5 my-5">
                 <h1 class="main-title">Style your Christmas ornament</h1>
-                <p class="main-description-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ipsam quia quae atque in. 
+                <p class="main-description-text">Get a chance to style your unique Christmas ornament. Create a perfect gift to yourself or
+                   your loved ones. We will provide you with all the supplies and more. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ipsam quia quae atque in. 
                     Consectetur cupiditate, eligendi dicta iusto hic aliquam itaque quis voluptas temporibus, laudantium odio est fugiat adipisci.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis ipsam quia quae atque in. 
                     Consectetur cupiditate, eligendi dicta iusto hic aliquam itaque quis voluptas temporibus, laudantium odio est fugiat adipisci.
@@ -100,24 +107,24 @@
         </section>
         
          <section class="description-include-section">
-             <h2 class="heading-includes text-center">What experiences includes</h2>
+             <h2 class="heading-includes text-center">What experience includes</h2>
              <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-sm text-center ">
+                    <div class="col-md text-center ">
                         <img src="../Assets/include1(decoration).png" class="w-75" alt=" ">
                         <h3 class="fw-bolder  heading-in-includes">Ornament canvas</h3>
                         <p> You can choose which of the ornament shapes is perfect for your unique styling. 
                             Choose beetween basic shapes or create your own.
                         </p>
                        </div>
-                       <div class="col-sm text-center">
+                       <div class="col-md text-center">
                           <img src="../Assets/include2(decoration).png" class="w-75" alt=" ">
                           <h3 class="fw-bolder heading-in-includes">A set of supplies</h3>
                          <p>You get your own set of supplies that you pick by yourself.
                              Choose everything you need to create your unique ornament.
                         </p>
                         </div>
-                       <div class="col-sm text-center">
+                       <div class="col-md text-center">
                           <img src="../Assets/include3(decoration) (1).png" class="w-75" alt=" ">
                           <h3 class="fw-bolder  heading-in-includes">Hot cocoa and cookies</h3>
                           <p>During the whole session you get an unlimited access to hot cocoa and of course cookies. 
@@ -126,9 +133,30 @@
                        </div>
                  </div>
              </div>
-            
-            
          </section>
+         <section class="modal-section">
+          <div class="modal-icon">
+        <img src="../Assets/contact-letter.png" type="button" class="button-icon btn" data-bs-toggle="modal" data-bs-target="#contact-modal">
+        </img>
+        </div>
+        <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-label">Wondering something?</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                If you wondering about something and need more information about this experience please contact us and our elves-helpers will
+                        help you with any questions.
+              </div>
+              <div class="modal-footer">
+                <a href="../contact/contact-us.html" role="button" class="modal-button btn">Contact us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+              </section>
       </main>
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
