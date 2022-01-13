@@ -1,165 +1,195 @@
-.body-product {
-    background-color: #EEEBDD;
-    font-family: "Montserrat";
+.main-background {
+  height: calc(100vh - 56px);
+  background-image: url("../Assets/andrew-neel-xjB7du_4kQQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.header-product-page{ /**/
-    background-color: #630000;
-}
-
-.navigation-product .nav-link, 
-.navigation-product a.brand-name, 
-.navigation-product.navbar-light 
-.navbar-nav .nav-link {
-    color: #EEEBDD;
-}/**/
-
-.tree-icon{
-    position: absolute;
-    top: 7px;
-    font-size: 2rem;
-}
-
-.snowflake-icon{
-    position: relative;
-    top: -14px;
-    left: 8px;
-}
-
-.logo-wrap{
-   
-    color:#EEEBDD;
-}
-.brand-name{
-    font-family: "Mountains of Christmas";
-}
-.main-background{
-    height: calc(100vh  - 56px);
-    background-image: url("../Assets/andrew-neel-xjB7du_4kQQ-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-.main-heading{
-    font-weight: bolder;
-    color: #EEEBDD;
-    text-shadow: -7px 1px 9px #1B1717;
-
+.main-heading {
+  font-weight: bolder;
+  color: #eeebdd;
+  text-shadow: -7px 1px 9px #1b1717;
+  font-family: "Mountains of Christmas";
+  font-size: 3rem;
 }
 
 .button-products.btn {
-    color: #EEEBDD;
-    font-weight: bold;
-    background-color: #810000;
-    box-shadow: 0px 8px 15px #1B1717;
-    cursor: pointer;
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 160px;
-    transition-property: transform;
-    transition-duration: 0.2s;
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 8px 15px #1b1717;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 160px;
+  transition-property: transform;
+  transition-duration: 0.2s;
 }
 
-.button-products.btn:hover{
-    background-color: #630000;
-    color: #EEEBDD;
-    transform: scale(1.1);
+.button-products.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
 }
 
-
-.card-button.btn{
-    color: #EEEBDD;
-    font-weight: bold;
-    background-color: #810000;
-    box-shadow: 0px 2px 5px #1b1717;
-    max-width: 200px;
-    cursor: pointer;
-    transition-property: transform;
-    transition-duration: 0.2s;
+.card-button.btn {
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 2px 5px #1b1717;
+  max-width: 200px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
 }
 
-.card-button.btn:hover{
-    background-color: #630000;
-    color: #EEEBDD;
-    transform: scale(1.1);
- } 
-
-.products-title{
-    background-color: #810000;
-    padding: 1.5rem 0;
-    font-weight: bolder;
-    color:  #EEEBDD;
-    text-transform: uppercase;
-    font-family: "Mountains of Christmas";
-   
+.card-button.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
 }
 
-.card-title{
-    font-weight: bold;
+.products-title {
+  background-color: #810000;
+  padding: 1.5rem 0;
+  font-weight: bolder;
+  color: #eeebdd;
+  text-transform: uppercase;
+  font-family: "Mountains of Christmas";
+}
+
+.card-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .card {
-    height: 100%;
+  height: 100%;
 }
 
 .card-body.card-body-custom {
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} 
-
-/*PRODUCT#1 style (Ride with Santa)*/
-.main-title{
-    font-weight: bolder;
-    color:  #1B1717;
-    padding: 1rem;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.heading-includes{
-    background-color: #810000;
-    padding: 1.5rem 0;
-    font-weight: bolder;
-    color:  #EEEBDD;
-    text-transform: uppercase;
-    font-family: "Mountains of Christmas";
+/*SEPARATE PRODUCTS PAGES style*/
+.main-title {
+  font-weight: bolder;
+  color: #1b1717;
+  padding: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Mountains of Christmas";
 }
 
-.description-button.btn{
-    color: #EEEBDD;
-    font-weight: bold;
-    background-color: #810000;
-    box-shadow: 0px 2px 5px #1b1717;
-    max-width: 200px;
-    cursor: pointer;
-    transition-property: transform;
-    transition-duration: 0.2s;
+.heading-includes {
+  background-color: #810000;
+  padding: 1.5rem 0;
+  font-weight: bolder;
+  color: #eeebdd;
+  text-transform: uppercase;
+  font-family: "Mountains of Christmas";
 }
 
-.description-button.btn:hover{
-   background-color: #630000;
-   color: #EEEBDD;
-   transform: scale(1.1);
+.description-button.btn {
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 2px 5px #1b1717;
+  max-width: 200px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
 }
 
-.carousel{
-    box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%), 
-    0 0 15px 0 rgb(0 0 0 / 2%),
-     0 0 20px 4px rgb(0 0 0 / 6%);
+.description-button.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
 }
 
-.pricing{
-    font-weight: bolder;
+.carousel {
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 8%), 0 0 15px 0 rgb(0 0 0 / 2%),
+    0 0 20px 4px rgb(0 0 0 / 6%);
 }
 
-.heading-in-includes{
- text-transform: uppercase;
+.pricing {
+  font-weight: bolder;
+}
+
+.heading-in-includes {
+  text-transform: uppercase;
+  font-family: "Mountains of Christmas";
+}
+
+.modal-button.btn {
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 2px 5px #1b1717;
+  max-width: 200px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+.modal-button.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
+}
+
+.modal-icon {
+  position: fixed;
+  bottom: 0;
+  text-align: end;
+  right: 0;
+  opacity: 0.8;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  animation: pulse-button 1.5s infinite;
+}
+
+.modal-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.button-icon.btn {
+  width: 200px;
+}
+
+@keyframes pulse-button {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.modal-dialog div.modal-content {
+  background-color: #eeebdd;
+  border-color: #630000;
+}
+
+.modal-dialog div.modal-header {
+  font-family: "Mountains of Christmas";
+}
+
+@media screen and (min-width: 992px) {
+  .carousel,
+  .carousel-inner {
+    border-radius: 5%;
+  }
 }

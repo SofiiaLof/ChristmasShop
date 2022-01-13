@@ -1,38 +1,35 @@
-
 /*ALL PAGES*/
 
-.header-global-page{
-    background-color: #630000;
+.header-global-page {
+  background-color: #630000;
 }
 
-.navigation-global .nav-link, 
-.navigation-global a.brand-name, 
-.navigation-global.navbar-light 
-.navbar-nav .nav-link {
-    color: #EEEBDD;
+.navigation-global .nav-link,
+.navigation-global a.brand-name,
+.navigation-global.navbar-light .navbar-nav .nav-link {
+  color: #eeebdd;
 }
 
-.tree-icon{
-    position: absolute;
-    top: 7px;
-    font-size: 2rem;
+.tree-icon {
+  position: absolute;
+  top: 7px;
+  font-size: 2rem;
 }
 
-.snowflake-icon{
-    position: relative;
-    top: -14px;
-    left: 8px;
+.snowflake-icon {
+  position: relative;
+  top: -14px;
+  left: 8px;
 }
 
-.logo-wrap{
-   
-    color:#EEEBDD;
+.logo-wrap {
+  color: #eeebdd;
 }
-.brand-name{
-    font-family: "Mountains of Christmas";
+.brand-name {
+  font-family: "Mountains of Christmas";
 }
 
-.body-global{
-    background-color: #EEEBDD;
-    font-family: "Montserrat";
+.body-global {
+  background-color: #eeebdd;
+  font-family: "Montserrat";
 }
