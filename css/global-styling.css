@@ -1,13 +1,8 @@
 /*ALL PAGES*/
 
-<<<<<<< HEAD
-.header-global-page {
-  background-color: #630000;
-=======
 .header-global-page{
     background-color: #630000;
     
->>>>>>> origin/Contact-sida
 }
 
 .navigation-global .nav-link,
@@ -28,19 +23,6 @@
   left: 8px;
 }
 
-<<<<<<< HEAD
-.logo-wrap {
-  color: #eeebdd;
-}
-.brand-name {
-  font-family: "Mountains of Christmas";
-}
-
-.body-global {
-  background-color: #eeebdd;
-  font-family: "Montserrat";
-}
-=======
 .logo-wrap{
     color:#EEEBDD;
 }
@@ -62,7 +44,6 @@ a.brand-name{
     padding: 70px 0;
     font-family: 'Montserrat', cursive;
     line-height: 1.5;   
-    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
@@ -182,4 +163,3 @@ ul{
         
     }
 }
->>>>>>> origin/Contact-sida
