@@ -79,6 +79,10 @@
   justify-content: space-between;
 }
 
+.card-container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 /*SEPARATE PRODUCTS PAGES style*/
 .main-title {
   font-weight: bolder;
