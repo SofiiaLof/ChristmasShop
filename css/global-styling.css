@@ -55,15 +55,14 @@ a.brand-name {
   left: 0;
   height: auto;
 }
-.container {
+.footer-container {
   max-width: 1170px;
   background-color: #630000;
   margin: auto;
 }
 
 * {
-  margin: 0;
-  padding: 0;
+ 
   box-sizing: border-box;
 }
 
@@ -139,7 +138,7 @@ ul {
 .footer-column .links a:hover {
   color: white;
   padding-left: 2px;
-  background-color: blue;
+  background-color: black;
 }
 
 @media (max-width: 574px) {
