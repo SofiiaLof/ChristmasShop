@@ -1,5 +1,5 @@
 body {
-  background-color: #0b0c0e;
+  background-color: #eeebdd;
 }
 .container-fluid-december {
   background-image: url("/Assets/blog/dog-5793625_1920.jpg");
@@ -64,7 +64,7 @@ section {
   border: 3px solid #eeebdd;
   border-style: outset;
   background-color: transparent;
-
+  margin: 0px 2rem 0px 2rem;
   max-width: 1250px;
 }
 .h-box {
@@ -123,4 +123,62 @@ h4 {
 }
 .list-group-item {
   font-family: "montserrat";
+}
+/* Lånad av Sofia, modal hjälp component */
+
+.modal-button.btn {
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 2px 5px #1b1717;
+  max-width: 200px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+.modal-button.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
+}
+
+.modal-icon {
+  position: fixed;
+  bottom: 0;
+  text-align: end;
+  right: 0;
+  opacity: 0.8;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  animation: pulse-button 1.5s infinite;
+}
+
+.modal-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.button-icon.btn {
+  width: 200px;
+}
+
+@keyframes pulse-button {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.modal-dialog div.modal-content {
+  background-color: #eeebdd;
+  border-color: #630000;
+}
+
+.modal-dialog div.modal-header {
+  font-family: "Mountains of Christmas";
 }

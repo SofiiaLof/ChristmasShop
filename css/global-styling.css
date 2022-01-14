@@ -10,6 +10,14 @@
   color: #eeebdd;
 }
 
+.collapse > ul > li:hover a {
+  color: black !important;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link .collapse > ul > .nav-link:active {
+  color: black !important;
+}
+
 .tree-icon {
   position: absolute;
   top: 7px;
@@ -40,11 +48,11 @@ a.brand-name {
   padding: 70px 0;
   font-family: "Montserrat", cursive;
   line-height: 1.5;
-  position: fixed;
+
   bottom: 0;
   right: 0;
   left: 0;
-  height: 250px;
+  height: auto;
 }
 .container {
   max-width: 1170px;
