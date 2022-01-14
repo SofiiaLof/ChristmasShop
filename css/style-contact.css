@@ -51,12 +51,12 @@
 
 .user{
  margin-top: 30px;
- font-size: 22px;
+ font-size: 40px;
  color: black;
  font-family: "Mountains of Christmas";
 }
 .person h5{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 100;
     letter-spacing: 2px;
     color: black;
@@ -180,9 +180,9 @@
         height: 200px;
     }
     .team-container{
-        grid-template-columns: 1fr;
-        width: 50%;
+        width: 100%;
+        display: block;
+        padding-bottom:0;
     }
-
-    
+  
 }
