@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mountains+of+Christmas&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/c7dd09710d.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-     <link rel="stylesheet" href="/css/global-styling.css" />
-    <link rel="stylesheet" href="/css/blog/style-blog.css" />
-   
+
+    <link rel="stylesheet" href="/css/global-styling.css" />
+    <link rel="stylesheet" href="/css/blog/blog-post.css" />
     <!-- Bootstrap Font Icon CSS -->
     <link
       rel="stylesheet"
@@ -34,7 +29,7 @@
             <i class="snowflake-icon bi bi-snow2"></i>
           </div>
 
-          <a class="brand-name navbar-brand" href="../index.html">Santa's Workshop</a>
+          <a class="brand-name navbar-brand" href="#">Santa's Workshop</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,7 +44,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link"href="">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../products/products.html"
@@ -57,192 +52,128 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../about-us/about-us.html"> About us </a>
+                <a class="nav-link" href="#"> About us </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../blog/blog-posts.html"> Blog</a>
+                <a class="nav-link" href="/"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../contact/contact-us.html"> Contact us</a>
+                <a class="nav-link">Contact us</a>
               </li>
+             
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="my-5"></div>
-
-    <div class="container_diy text-sm-center flex-column my-sm-1 container-fluid ">
+  </body>
+  
+  <body class="body-blog-post-december">
+    <div class="container-fluid-december">
      
-                <h4 class="text-center shadow ">Welcome to our blog-page!</h2>
-     
-      <p class="text-center">Here you might find..</p>
-      <p class="text-center">Jolly blogs to ease your mind</p>
-
-      <div class="green_bg">
+      <section class="blog-date">
+          <p class="lead text-white  fst-italic col-form-label m-auto text-capitalize">
+        <datetime class="font-color" time="2021-12-01">1st of december 2021</datetime>
+            </p>
+      </section>
         
-        <h4 class="text-center shadow">
-          merry christmas from us to you..
-        </h4>
-        <p class="text-center">
-         hope your christmas wishes come true
-        </p>
-       
-       
-      </div>
-    </div>
-     
-    <section class="carousel-style">
-      <!-- Bootstrap carousel dark variant-->
-
-      <div
-        id="carouselExampleDark"
-        class="carousel carousel-dark slide container-fluid w-100 mw-100 mx-5 my-5"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner mw-100">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img
-              src="/Assets/blog/snowflake-1918794_1920.jpg"
-              class="d-block w-100"
-              alt="snow"
-            />
-            <div class="carousel-caption d-none d-md-block mh-50">
-              <h2 class="h-carousel">Winters coming!></h2>
-              <p>
-                <a href="/blog/October.Html">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni sunt facilis illo ab, nobis dolorum dolor voluptates
-                  voluptatibus corrupti molestias deserunt saepe blanditiis,
-                  explicabo recusandae id enim odit eius sapiente?
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="/Assets/blog/christmas-6875109_1920.jpg"
-              class="d-block w-100"
-              alt="decorations"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="h-carousel">Our favorite decorations</h3>
-              <p>
-                <a href="/blog/November.Html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, nihil maiores voluptate alias praesentium commodi
-                  consectetur neque suscipit excepturi consequuntur sunt cumque
-                  amet modi eius reprehenderit nisi qui nulla reiciendis.</a
+            
+                 <!--Bootstrap quote card-->
+               <section>
+                 <div class="card m-4 w-50 bg-transparent">
+         
+          <div class="card-body">
+            <blockquote class="blockquote mb-0 text-white shadow">
+              <p class="quote-shadow">“Dogs do speak, but only to those who know how to listen.”</p>
+              <footer class="blockquote-footer">
+                Orhan Pamuk (author,<cite title="My Name is red"></cite>
+                  My Name Is Red )</cite
                 >
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/Assets/blog/dog-5793625_1920.jpg"
-              class="d-block w-100"
-              alt="santa-dog"
-            />
-            <div class="carousel-caption d-none d-md-block text-white">
-              <h3 class="h-carousel">Helping santa's little helper</h3>
-              <p>
-                <a href="December.html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Neque, nihil. Harum itaque eveniet corrupti voluptatem sit
-                  neque impedit voluptates eos ad quia dolor libero, perferendis
-                  ducimus molestiae placeat voluptatum dicta?</a
-                >
-              </p>
-            </div>
+              </footer>
+            </blockquote>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section class="css-logo-container my-5">
-         <div class="snowman">
-          <div class="body"></div>
-          <div class="head">
-            <div class="eyes"></div>
-            <p class="nose"></p>
-            <div class="eyes"></div>
-          </div>
-          <div class="scarf"></div>
-          <div id="scarf" class="scarf"></div>
-          <div class="hat">
-            <div class="white"></div>
-            <div class="rim"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-   
-     
-                  <div class="container_diy text-sm-center d-flex justify-content-center"> 
-             
-      <div>
-        <h2 class="text-center shadow">Blog history</h2>
-        <p class="text-center">
-          
-        </p>
-        <p class="text-center shadow">
-         Here you will find all of our blogposts
-        </p>
-       
-      </div>
-    </div>
+      </section>
        
       
-    
-      <div class="snow-icon-container"></div>
+         <section>
+          <div class="blog-card">
+           <h2>
+             <div class="h-box">
+                <em>Helping santa's little helper</em> 
+             </div>
+            
+           </h2>
+           <p>
+             With Christmas right around the corner, you might be thinking About
+             getting yourself a dog, as a gift to your family. 
+             We at santa's workshop would recommend you take on a rescue!
+            Welcoming a rescue into your home can change both of your lives. 
+            For the dog, it gives them a new place to live and a more secure life.</p>
+            <p>
+              For you, a rescue could be a loving, kind pet that brings you loyalty and love. As such,
+               it’s no wonder that rescue dog adoption has risen considerably over recent months.
 
-    
-    
-     
-       
+            </p>
+            <p>
+          The success of adopting a rescue pup depends on many factors,
+           including the initial weeks that your new pet spends in your home.
+            </p>
+            <p>
+            We’ve put together this practical guide to helping your new pet
+             settle and become an indispensable part of your family.
+            </p>
 
-      <section class="accordion-flex my-2 "> 
-        <div class="accordion accordion-flush " id="accordionFlushExample">
+            
+
+          <br>
+          <img src="/Assets/blog/akita-g0d84d8ec5_1920.jpg" alt="dog by trees">
+         
+           
+           <div class="h-box">
+              <h4>
+            Make Your New Pet A Safe Place </h4>
+           </div>
+           
+             <p>On their first visit to their new home, keep your rescue dog in the lead and give them a guided tour. Walk them around the yard and show them the main property.
+
+If there are any areas out of bounds to your pet, don’t take them there. Instead,
+ walk them around the space where they will be living.</p>
+              <p>Keeping your dog on a lead will make them feel calm and give them the chance
+                 to adjust to the new sights and smells in your home.
+
+                 Once you’ve been around your home,
+           you could consider taking your dog to their safe space and then letting them off the lead.</p>
+        <p>Place the crate in a corner private corner of one of the quieter rooms.
+   If your dog finds a corner that they prefer to relax in, then move the crate there, so they have access to their comfortable space.
+
+When your dog is in its safe space, please do not disturb them or allow other members of your family to do so, as this could make your dog feel cornered.
+
+As your rescue pup becomes more confident and feels more at home in your house,
+ they might let other pets or children join them in their safe space.</p>
+           <img src="/Assets/blog/black-santa-dog.jpg" alt="black dog with santa's hat">
+           
+           <div class="h-box">
+            <h4>Create A Routine</h4>
+           </div>
+          
+           <p>Routine can be soothing and reassuring to pets and people alike. As such, when you bring a rescue pup home, you should try to create a routine for them as soon as possible.
+
+That means setting a time for when they eat, when they go for walks, and when the lights go out, and they get to go to sleep at night.</p>
+<p>By creating a routine, you’ll make your dog feel calm and allow them to feel reassured that they know when their next meal is coming from and when everything happens.
+
+This approach is particularly valuable for rescue pets who’ve been abandoned and had a challenging former life. They might be insecure and frightened so that a routine could soothe them.</p>
+                    <div class="endblog">
+          <p class="endblog-text">December 1st 2021 | Animal Assisted Therapy, Therapy Dogs</p>
+        </div>
+          </div>
+        
+
+
+         </section>
+          <!--accordion-->
+         <section class="accordion-section my-2">
+           <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button
@@ -265,12 +196,11 @@
               <div class="accordion-body">
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <a href="/blog/December.html"
-                      >Helping santa's little helper
-                    </a>
+                    <a href="#"
+                      >Helping santa's little helper</a>
                   </li>
                   <li class="list-group-item">
-                    <a href="#">Countdown to christmas</a>
+                    <a href="#">Eco-friendly christmas gifts</a>
                   </li>
                   <li class="list-group-item">
                     <a href="#">Santa's got a new look!</a>
@@ -335,7 +265,7 @@
               <div class="accordion-body">
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <a href="/blog/October.Html">Winter is coming!</a>
+                    <a href="/blog/October.Html">Winter is coming</a>
                   </li>
                   <li class="list-group-item">
                     <a href="#">Reindeers need your help!</a>
@@ -348,27 +278,15 @@
             </div>
           </div>
         </div>
-        
-      </section>
-               <!-- Christmas-present css:battle.dev-->
-            <!-- fixa positionering  -->
-      <!-- <section class="d-lg-flex justify-content-lg-center">
-         <div class="css-logo-container d-lg-flex ">
-         <div class="xmas-box">
-               <div class="square"></div>
-          <div id="square-right" class="square"></div>
-          <div class="circle"></div>
-          <div id="circle-right" class="circle"></div>
-          <div id="connector"></div>
-          <div id="left-inner" class="inner-circle"></div>
-          <div id="right-inner" class="inner-circle"></div>
-         </div>
-         
-        </div>
 
-      </section> -->
+         </section>
+ 
+    </div>
 
-        <section class="modal-section">
+          <!-- sofiias hjälp-kuvert -->
+
+          
+           <section class="modal-section">
   <div class="modal-icon">
 <img src="../Assets/contact-letter.png" type="button" class="button-icon btn" data-bs-toggle="modal" data-bs-target="#contact-modal">
 </img>
@@ -394,7 +312,7 @@
       </section>
 
           <!-- Hasans footer -->
-           <section>
+           
                          <footer class="footer">
     <div class="container">
         <div class="raw">
@@ -430,25 +348,22 @@
             </div>
         </div>
     </div>
-        </section>
+        
         
 
 
 </footer>
 
-       
-     
 
 
-      
-   
+
 
       <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-
-     ></script>
-     
+           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+       crossorigin="anonymous"
+    ></script>
   </body>
+
+  <!-- <div class="bg-dog"></div> -->
 </html>
