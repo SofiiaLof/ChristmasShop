@@ -11,6 +11,7 @@
   color: #eeebdd;
 }
 
+
 .tree-icon {
   position: absolute;
   top: 7px;
@@ -30,6 +31,7 @@
 .body-global{
     background-color: #EEEBDD;
     font-family: "Montserrat";
+    font-weight: bold;
 }
 
 a.brand-name{
