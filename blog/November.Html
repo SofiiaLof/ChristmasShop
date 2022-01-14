@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="eng">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mountains+of+Christmas&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/c7dd09710d.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-     <link rel="stylesheet" href="/css/global-styling.css" />
-    <link rel="stylesheet" href="/css/blog/style-blog.css" />
-   
+
+    <link rel="stylesheet" href="/css/global-styling.css" />
+    <link rel="stylesheet" href="/css/blog/blog-post.css" />
     <!-- Bootstrap Font Icon CSS -->
     <link
       rel="stylesheet"
@@ -34,7 +29,7 @@
             <i class="snowflake-icon bi bi-snow2"></i>
           </div>
 
-          <a class="brand-name navbar-brand" href="../index.html">Santa's Workshop</a>
+          <a class="brand-name navbar-brand" href="#">Santa's Workshop</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,7 +44,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link"href="">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../products/products.html"
@@ -57,192 +52,122 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../about-us/about-us.html"> About us </a>
+                <a class="nav-link" href="#"> About us </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../blog/blog-posts.html"> Blog</a>
+                <a class="nav-link" href="/"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../contact/contact-us.html"> Contact us</a>
+                <a class="nav-link">Contact us</a>
               </li>
+             
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="my-5"></div>
-
-    <div class="container_diy text-sm-center flex-column my-sm-1 container-fluid ">
+  </body>
+  
+  <body class="body-November">
+    <div class="container-fluid-november">
      
-                <h4 class="text-center shadow ">Welcome to our blog-page!</h2>
-     
-      <p class="text-center">Here you might find..</p>
-      <p class="text-center">Jolly blogs to ease your mind</p>
-
-      <div class="green_bg">
+      <section class="blog-date">
+          <p class="lead text-white  fst-italic col-form-label m-auto text-capitalize" >
+        <datetime class="font-color" time="2021-12-01">1st of december 2021</datetime>
+            </p>
+      </section>
         
-        <h4 class="text-center shadow">
-          merry christmas from us to you..
-        </h4>
-        <p class="text-center">
-         hope your christmas wishes come true
-        </p>
-       
-       
-      </div>
-    </div>
-     
-    <section class="carousel-style">
-      <!-- Bootstrap carousel dark variant-->
-
-      <div
-        id="carouselExampleDark"
-        class="carousel carousel-dark slide container-fluid w-100 mw-100 mx-5 my-5"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner mw-100">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img
-              src="/Assets/blog/snowflake-1918794_1920.jpg"
-              class="d-block w-100"
-              alt="snow"
-            />
-            <div class="carousel-caption d-none d-md-block mh-50">
-              <h2 class="h-carousel">Winters coming!></h2>
-              <p>
-                <a href="/blog/October.Html">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni sunt facilis illo ab, nobis dolorum dolor voluptates
-                  voluptatibus corrupti molestias deserunt saepe blanditiis,
-                  explicabo recusandae id enim odit eius sapiente?
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="/Assets/blog/christmas-6875109_1920.jpg"
-              class="d-block w-100"
-              alt="decorations"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="h-carousel">Our favorite decorations</h3>
-              <p>
-                <a href="/blog/November.Html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, nihil maiores voluptate alias praesentium commodi
-                  consectetur neque suscipit excepturi consequuntur sunt cumque
-                  amet modi eius reprehenderit nisi qui nulla reiciendis.</a
+            
+                 <!--Bootstrap quote card-->
+               <section>
+                 <div class="card m-4 w-50 bg-transparent">
+         
+          <div class="card-body">
+            <blockquote class="blockquote mb-0 text-white">
+              <p class="quote-shadow">“Believe in love. Believe in magic. Hell, believe in Santa Claus. Believe in others. Believe in yourself. Believe in your dreams. If you don't, who will?”</p>
+              <footer class="blockquote-footer font-color">
+                Jon Bon Jovi (singer)<cite title="Jon Bon Jovi quote"></cite>
+               </cite
                 >
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="/Assets/blog/dog-5793625_1920.jpg"
-              class="d-block w-100"
-              alt="santa-dog"
-            />
-            <div class="carousel-caption d-none d-md-block text-white">
-              <h3 class="h-carousel">Helping santa's little helper</h3>
-              <p>
-                <a href="December.html">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Neque, nihil. Harum itaque eveniet corrupti voluptatem sit
-                  neque impedit voluptates eos ad quia dolor libero, perferendis
-                  ducimus molestiae placeat voluptatum dicta?</a
-                >
-              </p>
-            </div>
+              </footer>
+            </blockquote>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <section class="css-logo-container my-5">
-         <div class="snowman">
-          <div class="body"></div>
-          <div class="head">
-            <div class="eyes"></div>
-            <p class="nose"></p>
-            <div class="eyes"></div>
-          </div>
-          <div class="scarf"></div>
-          <div id="scarf" class="scarf"></div>
-          <div class="hat">
-            <div class="white"></div>
-            <div class="rim"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-   
-     
-                  <div class="container_diy text-sm-center d-flex justify-content-center"> 
-             
-      <div>
-        <h2 class="text-center shadow">Blog history</h2>
-        <p class="text-center">
-          
-        </p>
-        <p class="text-center shadow">
-         Here you will find all of our blogposts
-        </p>
-       
-      </div>
-    </div>
+      </section>
        
       
-    
-      <div class="snow-icon-container"></div>
+         <section>
+          <div class="blog-card">
+           <h2>
+             <div class="h-box">
+                <em>Our favorite decorations</em> 
+             </div>
+            
+           </h2>
+           <p>
+            I love practically all Christmas decorations, because I love all of the colors. Looking at our Christmas trees as I was growing up was one of my all time favorite pastimes. And it still is!
 
-    
-    
-     
-       
+            I would lay on the couch with all of the lights off, and the tree lights on, and just stare for hours.
 
-      <section class="accordion-flex my-2 "> 
-        <div class="accordion accordion-flush " id="accordionFlushExample">
+            The colors, and the shimmering lights, reflecting on the brightly colored ornaments, was eye candy for me.
+
+                Trees like this:.</p>
+
+          
+          <img src="/Assets/blog/christmas-tree.jpg" alt="decorations-tree">
+            
+           
+           <div class="h-box">
+              <h4>
+            Scandinavian design at it's finest </h4>
+           </div>
+           
+             <p>Scandinavian Christmas decorations are taken seriously across the region. While each country has slight variations in how they approach the decor,
+                there’s an overall focus on natural elements like wood,
+                 flowers, and greenery, as well as a lot of the classic colors such as red, green, gold,
+                  and silver. Recently we’ve seen more on-trend hues as well, including pastels, greys, and neutrals.
+
+              </p>
+              <p>
+                The result is a typically refined and somewhat minimalist look that melts into the fouandational decor,
+                but still announces the holiday season.
+                          There are traditional decorations you’ll find in many homes from beloved Scandinavian design brands such as Royal Copenhagen and Georg Jensen, to more modern and playful items that are chosen to suit each person’s decor style. If you celebrate Christmas, or just like decorating for the holiday season,
+                        there’s a Scandinavian decoration for you.
+               </p>
+
+                    <img src="/Assets/blog/wood-decorations.jpg" alt="wooden table and decorations">
+                             <div class="h-box">
+                                 <h4>
+                                     Santa Art </h4>
+                                   </div>
+
+                                      <p>
+                                        If there is one thing to buy during the holiday season that is some form of Santa art.
+                                         Wherever you go, there doesn’t seem to be a shortage of Santa art around whether vintage or new.
+                                          I love using Santa art as a backdrop to a cute little vignette anywhere around the house.
+                                           The perk to using Santa art as your only form of Christmas specific decor, the rest of your vignette is winter decor ready.
+                                           
+                                        </p>
+                                        <p>
+                                           Just trade out the Santa art for winter art, and now you have a beautiful wintery look to carry you to spring!
+                                             Fun tip: You can find lovely Santa art online that you can print out yourself and frame for super affordable Santa art.
+                                              This Santa canvas is from Hobby Lobby
+                                         & it was a super affordable find & I loved how versatile he is… I can even add a frame for more of a statement!
+                                        </p>
+           
+           
+           
+                    <div class="endblog">
+          <p class="endblog-text">November 1st 2021 | Santa's Workshop</p>
+        </div>
+          </div>
+        
+
+
+         </section>
+          <!--accordion-->
+         <section class="accordion-section my-2">
+           <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button
@@ -266,8 +191,7 @@
                 <ul class="list-group">
                   <li class="list-group-item">
                     <a href="/blog/December.html"
-                      >Helping santa's little helper
-                    </a>
+                      >Helping Santa's little helper</a>
                   </li>
                   <li class="list-group-item">
                     <a href="#">Countdown to christmas</a>
@@ -301,7 +225,7 @@
               <div class="accordion-body">
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <a href="/blog/November.Html">Our favorite decorations</a>
+                    <a href="#">Our favorite decorations</a>
                   </li>
                   <li class="list-group-item">
                     <a href="#">Reindeers need your help!</a>
@@ -348,27 +272,16 @@
             </div>
           </div>
         </div>
-        
-      </section>
-               <!-- Christmas-present css:battle.dev-->
-            <!-- fixa positionering  -->
-      <!-- <section class="d-lg-flex justify-content-lg-center">
-         <div class="css-logo-container d-lg-flex ">
-         <div class="xmas-box">
-               <div class="square"></div>
-          <div id="square-right" class="square"></div>
-          <div class="circle"></div>
-          <div id="circle-right" class="circle"></div>
-          <div id="connector"></div>
-          <div id="left-inner" class="inner-circle"></div>
-          <div id="right-inner" class="inner-circle"></div>
-         </div>
-         
-        </div>
 
-      </section> -->
+         </section>
+ 
+    </div>
 
-        <section class="modal-section">
+
+                                                    <!-- sofiias hjälp-kuvert -->
+
+          
+           <section class="modal-section">
   <div class="modal-icon">
 <img src="../Assets/contact-letter.png" type="button" class="button-icon btn" data-bs-toggle="modal" data-bs-target="#contact-modal">
 </img>
@@ -394,7 +307,7 @@
       </section>
 
           <!-- Hasans footer -->
-           <section>
+           
                          <footer class="footer">
     <div class="container">
         <div class="raw">
@@ -430,25 +343,23 @@
             </div>
         </div>
     </div>
-        </section>
+        
         
 
 
 </footer>
 
-       
-     
 
 
-      
-   
+
+
 
       <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-
-     ></script>
-     
+           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+       crossorigin="anonymous"
+    ></script>
   </body>
+
+  <!-- <div class="bg-dog"></div> -->
 </html>
