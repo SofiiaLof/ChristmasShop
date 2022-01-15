@@ -90,58 +90,6 @@
   background: none;
 }
 
-.carousel-style {
-  display: flex;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#carouselExampleDark {
-  min-width: 200px;
-  min-height: 614px;
-}
-.h-carousel {
-  font-family: "Mountains of Christmas";
-  font-weight: normal;
-  font-size: 50px;
-  border-bottom: 2px solid #630000;
-}
-.carousel-style a:hover {
-  color: #630000;
-}
-.carousel-style a:link,
-a:visited {
-  color: #eeebdd;
-  text-decoration: none;
-}
-.carousel-style p {
-  font-family: "montserrat";
-  font-weight: normal;
-}
-@media (max-width: 608px) {
-  .carousel-caption h3 {
-    font: size 2px;
-  }
-}
-.carousel-caption .carousel-caption {
-  align-items: center;
-  flex-shrink: 1;
-}
-.carousel-inner {
-  justify-content: center;
-  min-width: 200px;
-  min-height: 614px;
-  max-width: 50%;
-  max-height: 100%;
-}
-.carousel-inner > .item > img {
-  width: 300px;
-  height: 360px;
-}
 .snow-icon-container {
   background-image: url("/Assets/blog/snow2.svg");
   height: 500px;
@@ -213,7 +161,7 @@ div.head {
   background: #ffffff;
   width: 9px;
   height: 10px;
-  margin: 1px -11px px 5px;
+  margin: 1px -11px 0px 5px;
 }
 .eyes {
   width: 10px;
@@ -316,13 +264,3 @@ div.head {
 .modal-dialog div.modal-header {
   font-family: "Mountains of Christmas";
 }
-
-/* @media screen and (min-width: 992px) {
-  .carousel,
-  .carousel-inner {
-    border-radius: 5%;
-  }
-  tar bort rundade kanter när den blir liten
-} */
-
-/* ny carousel */
