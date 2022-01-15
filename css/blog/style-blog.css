@@ -15,31 +15,29 @@
 }
 .container-bg {
   background-image: url("/Assets/blog/snowheader.jpg");
-  background-repeat: unset;
 
   height: 300px;
   width: 100%;
 
-  object-fit: fill;
-}
-.container_diy {
-  /* width: min(97%, 1000px); */
-
-  width: 50%;
-  height: 250px;
   display: flex;
   align-items: center;
+}
+.container_diy {
+  width: 50%;
+  height: 200px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin-inline: auto;
+  display: flex;
+
   border: 3px solid #eeebdd;
   border-style: outset;
   overflow: hidden;
-
-  /* box-shadow: 5px 5px 2px 5px rgb(255, 246, 236), 10px 10px 50px 1px#630000; */
-  /* background-color: transparent; */
 }
 @media screen and (max-width: 990px) {
   .font-color-and-shadow {
     width: 80%;
+    height: 280px;
   }
 }
 .container_diy p {
@@ -47,19 +45,12 @@
 }
 
 .font-color-and-shadow {
-  margin-top: 1rem;
   align-items: center;
   background-color: transparent;
   color: white;
   text-shadow: -4px 4px 4px black;
 }
 
-/* .card-bg {   
-  background-image: url("/Assets/blog/snow2.svg");
-  width: 45px;
-
-  height: 200px;
-} */
 .card-wrap {
   margin-bottom: 10rem;
   margin-top: 3rem;
@@ -176,6 +167,9 @@ a:visited {
   font-family: "Mountains of Christmas";
   font-size: 1.5rem;
 }
+.accordion-button:not(.collapsed) {
+  color: #630000;
+}
 .list-group-item a {
   color: black;
 }
@@ -262,66 +256,6 @@ div.head {
 .snowman {
   justify-content: flex-end;
   align-items: center;
-}
-/* CSS:Battle Julklapp */
-.xmas-box {
-  position: relative;
-  right: 60px;
-  display: flex;
-  justify-content: center;
-}
-.square {
-  background: #630000;
-  position: relative;
-  left: 122px;
-  top: 102px;
-  align-items: center;
-  width: 60px;
-  height: 60px;
-
-  box-shadow: 80px 0px 0px 0px #630000;
-}
-#square-right {
-  top: 182px;
-  left: 62px;
-}
-.circle {
-  position: relative;
-  top: 41px;
-
-  flex-direction: column;
-  left: 35px;
-
-  background: #630000;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-}
-#circle-right {
-  left: 28px;
-}
-#connector {
-  height: 15px;
-  width: 30px;
-  background: #630000;
-  position: relative;
-  top: 66.3px;
-  right: 23px;
-}
-.inner-circle {
-  background: #eeebdd;
-  height: 20px;
-  width: 20px;
-  position: relative;
-  top: 53px;
-}
-#left-inner {
-  border-radius: 50% 50% 0% 50%;
-  right: 65px;
-}
-#right-inner {
-  border-radius: 50% 50% 50% 0%;
-  right: 55px;
 }
 
 /* Lånad av Sofia, modal hjälp component */
