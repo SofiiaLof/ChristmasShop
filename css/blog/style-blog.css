@@ -91,7 +91,7 @@
 }
 
 .snow-icon-container {
-  background-image: url("../Assets/blog/snow2.svg");
+  background-image: url("s/Assets/blog/snow2.svg");
   height: 500px;
 
   margin-top: 3rem;
@@ -122,7 +122,7 @@
   color: black;
 }
 .list-group-item {
-  background-image: url("../Assets/blog/winter-g276990c28_1920.jpg");
+  background-image: url("../../Assets/blog/winter-g276990c28_1920.jpg");
 }
 .list-group-item {
   font-family: "montserrat";

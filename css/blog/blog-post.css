@@ -2,20 +2,20 @@ body {
   background-color: #eeebdd;
 }
 .container-fluid-december {
-  background-image: url("../Assets/blog/dog-5793625_1920.jpg");
+  background-image: url("../../Assets/blog/dog-5793625_1920.jpg");
   background-repeat: no-repeat;
 
   background-size: cover;
   background-attachment: fixed;
 }
 .container-fluid-november {
-  background-image: url("../Assets/blog/christmas-6875109_1920.jpg");
+  background-image: url("../../Assets/blog/christmas-6875109_1920.jpg");
   background-repeat: no-repeat;
   background-position-x: -1000px;
   background-size: cover;
 }
 .container-fluid-october {
-  background-image: url("../Assets/blog/snowflake-1918794_1920.jpg");
+  background-image: url("../../Assets/blog/snowflake-1918794_1920.jpg");
   background-repeat: no-repeat;
 
   background-size: cover;
@@ -108,7 +108,7 @@ h4 {
   text-decoration: none;
 }
 .list-group-item {
-  background-image: url("../Assets/blog/winter-g276990c28_1920.jpg");
+  background-image: url("../../Assets/blog/winter-g276990c28_1920.jpg");
 }
 .list-group-item {
   font-family: "montserrat";
