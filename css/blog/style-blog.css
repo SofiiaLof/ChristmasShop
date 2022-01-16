@@ -1,0 +1,316 @@
+body {
+  background-color: #eeebdd;
+  /* background-image: url("/Assets/blog/snowheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.padding {
+  padding: 1rem;
+}
+.brand-name {
+  font-family: "Mountains of Christmas";
+}
+
+.container_diy {
+  /* width: min(97%, 1000px); */
+  width: 100%;
+  margin-inline: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 .container_diy {
+  font-family: "Mountains of Christmas";
+}
+.container_diy p {
+  font-family: "montserrat";
+}
+
+.green_bg {
+  background-color: #173611;
+  color: #eeebdd;
+}
+
+.carousel-style {
+  display: flex;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: 400px !important;
+}
+
+/* #carouselExampleDark {
+  height: auto;
+} */
+.h-carousel {
+  font-family: "Mountains of Christmas";
+  font-weight: normal;
+  font-size: 50px;
+  border-bottom: 2px solid #630000;
+}
+.carousel-style a:hover {
+  color: #630000;
+}
+.carousel-style a:link,
+a:visited {
+  color: #eeebdd;
+  text-decoration: none;
+}
+.carousel-style p {
+  font-family: "montserrat";
+  font-weight: normal;
+}
+
+.carousel-caption {
+  align-items: center;
+}
+.carousel-inner {
+  justify-content: center;
+  max-width: 50%;
+  max-height: 100%;
+}
+.carousel-inner > .item > img {
+  /* width: 640px;
+  height: 360px; */
+}
+.snow-icon-container {
+  background-image: url("/Assets/blog/snow2.svg");
+  height: 50px;
+  margin-top: 3rem;
+  width: 100%;
+}
+.accordion-flex {
+  display: flex;
+  justify-content: center;
+}
+.accordion {
+  margin-top: 3rem;
+  width: 50%;
+  box-shadow: 0px 0px 5px 0px black;
+}
+.accordion-item {
+  background-color: #eeebdd;
+}
+.accordion-button {
+  color: #eeebdd;
+  background: #630000;
+  font-family: "Mountains of Christmas";
+  font-size: 1.5rem;
+}
+.list-group-item a {
+  color: black;
+}
+.list-group-item {
+  background-image: url("/Assets/blog/winter-g276990c28_1920.jpg");
+}
+.list-group-item {
+  font-family: "montserrat";
+}
+
+/* CSS:Battle snögubbe */
+div.body {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+div.head {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffffff;
+
+  margin: -150px 0px 0px 20px;
+  display: flex;
+}
+.scarf {
+  background: #eeebdd;
+  width: 80px;
+  height: 18px;
+  margin: -16px 0px 0px 15px;
+}
+#scarf.scarf {
+  background: #ffa63f;
+  width: 60px;
+  height: 10px;
+  margin: -14px 0px 0px 20px;
+  border-radius: 10px;
+}
+.nose {
+  background: #ffffff;
+  width: 9px;
+  height: 10px;
+  margin: 1px -11px px 5px;
+}
+.eyes {
+  width: 10px;
+  border-right: 1px solid white;
+  position: relative;
+  top: 15px;
+  height: 10px;
+  background: black;
+  left: 14px;
+  border-radius: 50%;
+}
+.hat {
+  position: relative;
+  background: #0e1f2b;
+  height: 45px;
+  width: 40px;
+  top: -92px;
+  left: 30px;
+}
+.rim {
+  background: #0e1f2b;
+  position: relative;
+  top: 40px;
+  right: 10px;
+  height: 5px;
+  width: 60px;
+}
+.white {
+  background: #ffffff;
+  width: 40px;
+  position: absolute;
+  display: block;
+  top: 15px;
+  height: 10px;
+}
+.css-logo-container {
+  display: flex;
+  justify-content: center;
+}
+.snowman {
+  justify-content: flex-end;
+  align-items: center;
+}
+/* CSS:Battle Julklapp */
+.xmas-box {
+  position: relative;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+}
+.square {
+  background: #630000;
+  position: relative;
+  left: 122px;
+  top: 102px;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+
+  box-shadow: 80px 0px 0px 0px #630000;
+}
+#square-right {
+  top: 182px;
+  left: 62px;
+}
+.circle {
+  position: relative;
+  top: 41px;
+
+  flex-direction: column;
+  left: 35px;
+
+  background: #630000;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#circle-right {
+  left: 28px;
+}
+#connector {
+  height: 15px;
+  width: 30px;
+  background: #630000;
+  position: relative;
+  top: 66.3px;
+  right: 23px;
+}
+.inner-circle {
+  background: #eeebdd;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 53px;
+}
+#left-inner {
+  border-radius: 50% 50% 0% 50%;
+  right: 65px;
+}
+#right-inner {
+  border-radius: 50% 50% 50% 0%;
+  right: 55px;
+}
+
+/* Lånad av Sofia, modal hjälp component */
+
+.modal-button.btn {
+  color: #eeebdd;
+  font-weight: bold;
+  background-color: #810000;
+  box-shadow: 0px 2px 5px #1b1717;
+  max-width: 200px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+.modal-button.btn:hover {
+  background-color: #630000;
+  color: #eeebdd;
+  transform: scale(1.1);
+}
+
+.modal-icon {
+  position: fixed;
+  bottom: 0;
+  text-align: end;
+  right: 0;
+  opacity: 0.8;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  animation: pulse-button 1.5s infinite;
+}
+
+.modal-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.button-icon.btn {
+  width: 200px;
+}
+
+@keyframes pulse-button {
+  0% {
+    transform: scale(0.9);
+  }
+  70% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.modal-dialog div.modal-content {
+  background-color: #eeebdd;
+  border-color: #630000;
+}
+
+.modal-dialog div.modal-header {
+  font-family: "Mountains of Christmas";
+}
+
+@media screen and (min-width: 992px) {
+  .carousel,
+  .carousel-inner {
+    border-radius: 5%;
+  }
+}

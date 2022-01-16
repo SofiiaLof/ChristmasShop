@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+*{
+    padding:0;
+    margin:0;
+}
+.team-container{
+    display:flex;
+    width: 100%;                       
+    padding: 2rem 3rem 4rem 3rem;
+   
+   
+}
+
+.team{
+    font-size: 40px;
+    color: black;
+    font-family: "Mountains of Christmas";
+    text-align: center;
+}
+
+.person{
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+.persons{
+    margin: 56px 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+
+.person .person-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: grayscale(50%);
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.person:hover .person-img{
+ filter: grayscale(0);
+}
+
+.user{
+ margin-top: 30px;
+ font-size: 40px;
+ color: black;
+ font-family: "Mountains of Christmas";
+}
+.person h5{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: black;
+}
+
+
+.line{
+    height: 2px;
+    width: 100%;
+    margin-top: 12px;
+    background-color: #630000;
+}
+
+.person .links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.person .links a:hover{
+    color: white;
+    padding-left: 2px;
+    background-color: black;
+}
+
+.contact-form-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.contact-form-container:after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../Assets/jul\ kontakt.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+.contact-box{
+    max-width:850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    background: url(../Assets/jul\ kontakt.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+
+.right{
+    padding: 25px 40px;
+}
+.contact-box h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-box h2:after{
+    content:" ";
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background-color: #630000 ;
+}
+
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size:1.1;
+    margin-bottom:22px;
+    transition: 0.3s;
+    outline:none;
+    border:2px solid rgba(0, 0, 0, 0);
+
+}
+.field:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+    background-color: white;
+    border: 2px solid rgba(30, 85, 250, 0.47); 
+}
+
+.area{
+    min-height: 150px;
+}
+
+@media screen and (max-width:880px) {
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    }
+    .team-container{
+        width: 100%;
+        display: block;
+        padding-bottom:0;
+    }
+  
+}

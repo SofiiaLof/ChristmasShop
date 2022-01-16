@@ -1,0 +1,168 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.headline {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2rem;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:100%;
+    height: auto;
+    padding: 2rem 3rem 4rem 3rem;
+}
+
+.card {
+    width:100%;
+    height:auto;
+    background-color:transparent;
+    border: transparent;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card-img-top {
+    border-radius: 10%;
+    height: auto; 
+    max-height:250px;
+    max-width: 250px;
+    width:100%;
+    box-shadow: 0px 0px 3px #1b1717;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+
+.btn {
+    color: #EEEBDD;
+    font-weight: bold;
+    background-color: #810000;
+    box-shadow: 0px 2px 5px #1b1717;
+    cursor: pointer;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    text-align: center;
+    border-color: #810000;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+.btn:hover {
+    background-color: #810000;
+    transform: translateY(-3px);
+    border-color: #810000;
+  }
+
+  .video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .iframe {
+    position: absolute;
+    overflow: hidden;
+    width: 70%;
+    height: 70%;
+    margin-top:3rem;
+    display: block;
+  }
+
+.container-video {
+    padding: 0px 20px 20px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;    
+}
+.presentation-Santa, .presentation-Shinny, .presentation-Rudolph {
+    margin:2rem;
+}
+
+
+h1, .card-title {
+    font-family:"Mountains of Christmas";
+}
+
+.presentation-p{
+    font-size: 2vw;
+    white-space:normal;
+    font-weight: bold;
+}
+
+hr{
+    background-color: transparent;
+	border-top: 3px dotted rgb(129, 0, 0);
+    opacity:0.8;
+    margin: 2rem 0;
+}
+
+.presentation-li{
+    font-size: 2vw;
+    font-family: "Montserrat";
+    white-space: normal;
+    font-weight: bold;
+
+}
+
+.float-left{
+    float: left;
+    width: 100%;
+    max-width: 500px;
+    height:auto;
+    margin-right:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.float-right {
+    float: right;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    height:auto;
+    object-fit: contain;
+    margin-left:1rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-container {
+      width: 100%;
+      display: block;
+      padding-bottom:0;
+    
+    }
+
+    .presentation-p, .presentation-li{
+        font-size: 3vw;
+    }
+
+  }

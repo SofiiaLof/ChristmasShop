@@ -1,0 +1,17 @@
+.blog-card p {
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 2px 5px 3px silver;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.endblog p {
+  font-size: 1rem;
+  background: #630000;
+  color: #eeebdd;
+  text-shadow: none;
+}
+.font-color {
+  color: black;
+}
