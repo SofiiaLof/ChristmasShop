@@ -1,6 +1,6 @@
 
 ## Wireframes produkt-sidor
-![wireframes prudkt-sido](Assets/Projektarbete_wireframe_product_Sofiia.png)
+![wireframes produkt sida](Assets/Projektarbete_wireframe_product_Sofiia.png)
 ## SEO
 
 Bakgrunden till vår webbsida är att vi är ett företag som säljer upplevelser som man kan boka själv eller ge bort i present under vinterhögtider. 

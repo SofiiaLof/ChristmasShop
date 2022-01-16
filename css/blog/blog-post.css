@@ -4,7 +4,6 @@ body {
 .container-fluid-december {
   background-image: url("/Assets/blog/dog-5793625_1920.jpg");
   background-repeat: no-repeat;
-  /* background-position-x: 700px; */
 
   background-size: cover;
   background-attachment: fixed;
@@ -21,8 +20,7 @@ body {
 
   background-size: cover;
 }
-/* .container-fluid {
-} */
+
 .opacity {
   opacity: 50%;
 }
@@ -31,24 +29,13 @@ body {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 800px) {
-  body {
-  }
-}
-
 .card {
   width: 100%;
 }
 p {
   font-family: "montserrat";
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Mountains of Christmas";
-}
+
 .font-color {
   color: #eeebdd;
 }
@@ -69,6 +56,7 @@ section {
 }
 .h-box {
   background: #630000;
+  font-family: "Mountains of Christmas";
 }
 .blog-card img {
   max-inline-size: 1250px;
@@ -110,6 +98,7 @@ h4 {
   font-size: 25px;
 }
 .accordion-button {
+  font-family: "Mountains of Christmas";
   color: #eeebdd;
   background: #630000;
   font-size: 40px;
